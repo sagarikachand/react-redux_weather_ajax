@@ -1,0 +1,105 @@
+
+
+
+#reportContainer{
+    background: #fff;
+  margin-top: -30px;
+  
+  #reportHeading{
+    padding:20px;
+    float:left
+  }
+  #changeView{
+    float: right;
+    color: #a1a1a1;
+    font-size:20px;
+    padding:20px 50px;
+    
+    span i{
+      color: #a1a1a1;
+      font-size: 20px;
+    }
+    span i.active {
+      color: #037ce2;
+    }
+  }
+  
+  #dataDisplayMainContainer{
+    width: calc(1390px - 40px);
+    background: #fff;
+    min-height:550px;
+    max-height: 550px;
+    display: inline-block;
+    padding: 20px;
+   
+    #pieChartContainer{
+      #pieChartRightPanel{
+        display: inline-block;
+        background: #fff;
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 500px;
+        border-right: 1px solid #ccc;
+        outline: 0;
+        h3{
+          padding-left:20px
+        
+        }
+        .tc-chart-js-legend li {
+          display: block;
+          padding: 10px 20px;
+           span {
+             width: 25px;
+             height: 25px;
+             display: block;
+             float: left;
+             margin-right: 10px;
+           }
+         }
+         
+      }
+      
+      #pieChartArea{
+       margin-top: 25px;
+       display: inline-block;
+       vertical-align: top;
+       height: 500px;
+       width: 1030px;
+        >div {
+         height: 386px;
+        }
+      }
+    
+    }
+   
+    #managerDetailContainer{
+     width: 1350px;
+     margin: 30px auto;
+     margin-top: -10px;
+     p{
+      font-size:18px;
+      padding: 10px 20px;
+     }
+    .ui-grid {
+      height:auto ! important;
+      max-height:500px
+     }
+
+    .ui-grid-cell{
+     padding-left :10px;
+    
+    }
+   .ui-grid-cell a{
+     color :#1e69f3
+    }
+   .ui-grid-cell a.fa-eye{
+     color :inherit;
+     background: #eee
+    }
+   
+   }
+  
+  }
+
+
+}
